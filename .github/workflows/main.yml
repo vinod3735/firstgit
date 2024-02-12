@@ -16,4 +16,8 @@ jobs:
          mkdir actions
          cd actions
          pwd
+         touch file1
+         ls -l
+         cat file1
+         
          
