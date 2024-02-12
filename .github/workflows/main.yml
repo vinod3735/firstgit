@@ -1,1 +1,19 @@
+on: 
+   workflow_dispatch:
+   push:
+     branches: ["main" ]
+       
+     
 
+jobs:
+  text:
+    name: vinod
+    runs-on: ubuntu-latest
+    steps:
+    - name: commands
+      run: |
+         ls -l
+         mkdir actions
+         cd actions
+         pwd
+         
